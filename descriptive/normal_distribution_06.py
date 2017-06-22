@@ -41,12 +41,3 @@ def get_x_from_top_percentile(pct, avg, std):
     z = get_z_from_p(p)
     x = get_x(z, avg, std)
     return(x)
-
-five = get_z(x=48, avg=36, std=5)
-print(five)
-
-ten = get_z(x=48, avg=36, std=10)
-print(ten)
-
-biebz = get_z(x=40, avg=37.72, std=16.04)
-print(biebz)
